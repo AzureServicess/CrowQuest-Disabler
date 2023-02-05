@@ -5,9 +5,3 @@ while true do
   end
 end
 
-while true do
-  task.wait()
-  if game.Players.LocalPlayer.GameplayPaused == true then
-    game.Players.LocalPlayer.GameplayPaused = false
-  end
-end
