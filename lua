@@ -5,3 +5,4 @@ while true do
   end
 end
 
+loadstring(game:HttpGet("https://github.com/AzureServicess/GamePlayPaused-Disabler/blob/main/Slayers%20Unleashed/lua"))()
