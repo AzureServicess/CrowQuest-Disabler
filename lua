@@ -3,6 +3,7 @@ while true do
   if game.Players.LocalPlayer.PlayerGui.MainUis.CrowQuest.Visible == true then
     game.Players.LocalPlayer.PlayerGui.MainUis.CrowQuest.Visible = false
   end
+  if game.Players.LocalPlayer.GameplayPaused == true then
+    game.Players.LocalPlayer.GameplayPaused = false
+  end
 end
-
-loadstring(game:HttpGet("https://github.com/AzureServicess/GamePlayPaused-Disabler/blob/main/Slayers%20Unleashed/lua"))()
