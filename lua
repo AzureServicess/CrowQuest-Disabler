@@ -39,6 +39,14 @@ for _, player in pairs(game.Players:GetPlayers()) do
    end
 end
 
+game.Players.LocalPlayer.PlayerGui.HUD.Enabled = true
+game.Players.LocalPlayer.PlayerGui.MainUis.Enabled = true
+game.Players.LocalPlayer.PlayerGui.Chat.Enabled = true
+game.Players.LocalPlayer.PlayerGui.AmbientContainer.Enabled = true
+game.Players.LocalPlayer.PlayerGui.Leaderboard.Enabled = true
+game.Players.LocalPlayer.PlayerGui.Compass.Enabled = true
+game.Players.LocalPlayer.PlayerGui.SafeZone.TextLabel.Visible = true
+
 while true do
    task.wait()
    if game.Players.LocalPlayer.PlayerGui.MainUis.CrowQuest.Visible == true then
